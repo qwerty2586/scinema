@@ -10,7 +10,8 @@ exports.get = function (url,callback) {
         return
     }
     // pri nove instalaci zmenit uuid
-    const uid = "2cff5c71-2cac-4d42-b0eb-870f46b581a0";
+    const uid = ""; // sem dat uuid
+    TODO();
     var full_url = "https://stream-cinema.online/kodi"+url+"?lang=eng&ver=1.3&uid="+uid+"&v=1.3.10";
     // zbavit se vice otazniku
     if (url.includes("?")) {
